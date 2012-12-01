@@ -1,0 +1,29 @@
+{
+    APPCLASS = NSApplication; 
+    DYNAMIC_CODE_GEN = YES; 
+    FILESTABLE = {
+        CLASSES = (AboutPanel.m, Base64.m, Base64Object.m); 
+        FRAMEWORKS = (AppKit.framework, Foundation.framework); 
+        H_FILES = (AboutPanel.h, Base64.h, Base64Object.h); 
+        INTERFACES = (NEXTSTEP_Base64.nib, WINDOWS_Base64.nib); 
+        OTHER_LINKED = (Base64_main.m); 
+        OTHER_SOURCES = (Makefile.preamble, Makefile, Makefile.postamble, m.template, h.template); 
+    }; 
+    LANGUAGE = English; 
+    LOCALIZABLE_FILES = {
+        NEXTSTEP_Base64.nib = NEXTSTEP_Base64.nib; 
+        WINDOWS_Base64.nib = WINDOWS_Base64.nib; 
+    }; 
+    MAKEFILEDIR = "$(NEXT_ROOT)/NextDeveloper/Makefiles/pb_makefiles"; 
+    NEXTSTEP_BUILDTOOL = /bin/gnumake; 
+    NEXTSTEP_DOCUMENTEXTENSIONS = (); 
+    NEXTSTEP_INSTALLDIR = "$(HOME)/Apps"; 
+    NEXTSTEP_MAINNIB = NEXTSTEP_Base64; 
+    PDO_UNIX_BUILDTOOL = $NEXT_ROOT/NextDeveloper/bin/make; 
+    PROJECTNAME = Base64; 
+    PROJECTTYPE = Application; 
+    PROJECTVERSION = 2.6; 
+    WINDOWS_BUILDTOOL = $NEXT_ROOT/NextDeveloper/Executables/make; 
+    WINDOWS_INSTALLDIR = /MyApps; 
+    WINDOWS_MAINNIB = WINDOWS_Base64.nib; 
+}
